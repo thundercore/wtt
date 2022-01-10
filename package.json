@@ -1,0 +1,25 @@
+{
+  "name": "wtt",
+  "version": "1.0.0",
+  "description": "Wrapped Thunder Token",
+  "main": "contracts/wtt.sol",
+  "repository": "git@github.com:thundercore/wtt.git",
+  "author": "ThunderCore",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">= 14"
+  },
+  "scripts": {
+    "build": "truffle compile",
+    "console": "truffle console --network thunder-mainnet",
+    "console:testnet": "truffle console --network thunder-testnet",
+    "test": "truffle test",
+    "deploy": "truffle migrate"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "dotenv": "^10.0.0",
+    "truffle": "^5.4.28"
+  }
+}
